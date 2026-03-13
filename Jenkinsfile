@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Java Program') {
             steps {
-                echo 'java HelloWorld'
+                bat 'java HelloWorld'
             }
         }
     }
